@@ -1,0 +1,5 @@
+project:
+  name: V-Sekai Vox to VRM
+  tz: America/Vancouver
+  adrFolder: ./docs/decisions
+  packages: []
