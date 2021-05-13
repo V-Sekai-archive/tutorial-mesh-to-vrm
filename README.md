@@ -17,8 +17,13 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 7. Ensure scale is near 1.7 m for a humanoid (Try 0.05 scale).
 8. Apply scale and only scale to mesh vertices.
 9. Export Godot Engine scene as a glTF 2.0 binary.
-10. ??? Open gltf -> Blender (Use auto rig)
-11. ??? Blender -> VRM (Blender. blocked on t-posing)
+10. Open gltf -> Blender (Use  Workflow Rignet)
+11. Voxel heat diffusion skinning
+12. Blender -> VRM ()
+
+# Workflow VRM (Blender)
+
+
 
 # Workflow Rignet
 
