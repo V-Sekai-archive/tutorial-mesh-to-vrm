@@ -23,7 +23,8 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 
 # Workflow VRM (Blender)
 
-
+* Principled baker to bake vertex color
+* xatlas to bake uv map (delete and rename UVMap0)
 
 # Workflow Rignet
 
