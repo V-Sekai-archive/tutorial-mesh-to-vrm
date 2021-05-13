@@ -12,7 +12,8 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 1. Download Godot Engine 3.3
 2. Open https://github.com/ClarkThyLord/Voxel-Core
 3. Import .vox with first the object mode. 
-4. Import .vox with second uvs generated. 
-5. Export Godot Engine scene as a glTF 2.0 binary.
-6. ??? Open gltf -> Blender (Use auto rig)
-7. ??? Blender -> VRM (Blender. blocked on t-posing)
+4. Import .vox with second uvs generated.
+5. Import .vox with centering above axis.  
+6. Export Godot Engine scene as a glTF 2.0 binary.
+7. ??? Open gltf -> Blender (Use auto rig)
+8. ??? Blender -> VRM (Blender. blocked on t-posing)
