@@ -34,3 +34,4 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 1. pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
 1. pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
 1. pip install torch-geometric
+2. scoop\apps\blender\current\2.92\python\bin> python -m pip install pillow
