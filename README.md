@@ -22,6 +22,8 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 
 # Workflow Rignet
 
+Checkout rignet to Blender folder.
+
 1. conda create -n rignet python=3.7
 1. conda init powershell
 1. conda activate rignet
@@ -34,4 +36,9 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 1. pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
 1. pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
 1. pip install torch-geometric
-2. scoop\apps\blender\current\2.92\python\bin> python -m pip install pillow
+2. scoop\apps\blender\current\2.92\python\bin> python -m pip install pillow # Is this needed?
+3. Use conda list to get the location of the modules folder for conda's rignet env.
+4. Install brignet Blender addon.
+5. Configure the rignet env from above and the brignet folder and the rignet folder under brignet.
+6. There is a typo in brignet\rignetconnect.py at `parent, key, init_id = primMST_symmetry(cost_matrix, root_id, pred_joints)`
+
