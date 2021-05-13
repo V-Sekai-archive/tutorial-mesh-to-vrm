@@ -47,4 +47,7 @@ Checkout rignet to Blender folder.
 4. Install brignet Blender addon.
 5. Configure the rignet env from above and the brignet folder and the rignet folder under brignet.
 6. There is a typo in brignet\rignetconnect.py at `parent, key, init_id = primMST_symmetry(cost_matrix, root_id, pred_joints)`
+7. Select mesh
+8. Decimate
+9. DEnsity 0.8 and Threshold of 0.007
 
