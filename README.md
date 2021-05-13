@@ -19,3 +19,18 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 9. Export Godot Engine scene as a glTF 2.0 binary.
 10. ??? Open gltf -> Blender (Use auto rig)
 11. ??? Blender -> VRM (Blender. blocked on t-posing)
+
+# Workflow Rignet
+
+1. conda create -n rignet python=3.7
+1. conda init powershell
+1. conda activate rignet
+1. pip install numpy scipy matplotlib tensorboard open3d==0.9.0 opencv-python
+1. pip install "rtree>=0.8,<0.9" 
+1. pip install trimesh[easy]
+1. conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
+1. pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
+1. pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
+1. pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
+1. pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
+1. pip install torch-geometric
