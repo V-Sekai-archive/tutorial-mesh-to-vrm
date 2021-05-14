@@ -33,6 +33,11 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 ![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
 * Armature Viewport display: stick, names and in front.
 * PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
+* Install Saturday's VRM addon for Blender
+* Assign all required bones (Hard!)
+* Convert above baked base colour texture to both albedo and shade color.
+* Export to vrm.
+* Check animations in 3tene.
 
 # Workflow Rignet
 
