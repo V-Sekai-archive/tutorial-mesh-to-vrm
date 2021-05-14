@@ -43,8 +43,6 @@ Check out Rignet to Blender folder.
 11. There is symmetry on X (Blender axis convention.)
 12. Wait a few minutes
 
-![image](https://user-images.githubusercontent.com/32321/118210317-3ae4ef80-b41f-11eb-96c9-755fc54e3588.png)
-
 # Workflow VRM (Blender)
 
 * Principled baker to bake vertex colour
@@ -62,11 +60,7 @@ Check out Rignet to Blender folder.
 
 ## Used in other software
 
-Problems with meshing and weighting.
-
 3tene
-
-https://user-images.githubusercontent.com/32321/118210676-a5962b00-b41f-11eb-8fa0-e81f99ebac5a.mp4
 
 ## Additional feature proposals
 
