@@ -67,3 +67,4 @@ Check out Rignet to Blender folder.
 1. Automatic skeleton scanning in VRM for Blender
 2. Automatic guessing of bones via location. Lasso them!
 3. Better automatic rigs. Note the shoulder to a spine problem.
+4. Automatic convert gltf to mtoon.
