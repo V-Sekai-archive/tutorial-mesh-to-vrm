@@ -24,21 +24,6 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 10. Open gltf -> Blender (Use  Workflow Rignet)
 12. Blender -> VRM
 
-# Workflow VRM (Blender)
-
-* Principled baker to bake vertex color
-* xatlas options (use padding 16 for 1k textures or less)
-* xatlas to create uv map (delete and rename UVMap0)
-* use principled baker to bake (there's an option to overwrite if required.)
-![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
-* Armature Viewport display: stick, names and in front.
-* PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
-* Install Saturday's VRM addon for Blender
-* Assign all required bones (Hard!)
-* Convert above baked base colour texture to both albedo and shade color.
-* Export to vrm.
-* Check animations in 3tene.
-
 # Workflow Rignet
 
 Checkout rignet to Blender folder.
@@ -66,6 +51,21 @@ Checkout rignet to Blender folder.
 10. Wait a few minutes
 
 ![image](https://user-images.githubusercontent.com/32321/118210317-3ae4ef80-b41f-11eb-96c9-755fc54e3588.png)
+
+# Workflow VRM (Blender)
+
+* Principled baker to bake vertex color
+* xatlas options (use padding 16 for 1k textures or less)
+* xatlas to create uv map (delete and rename UVMap0)
+* use principled baker to bake (there's an option to overwrite if required.)
+![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
+* Armature Viewport display: stick, names and in front.
+* PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
+* Install Saturday's VRM addon for Blender
+* Assign all required bones (Hard!)
+* Convert above baked base colour texture to both albedo and shade color.
+* Export to vrm.
+* Check animations in 3tene.
 
 ## Used in other software
 
