@@ -55,7 +55,7 @@ Check out Rignet to Blender folder.
 # Workflow VRM (Blender)
 
 * Principled baker to bake vertex colour
-* xatlas options (use padding 16 for 1k textures or less)
+* xatlas options (Use padding of 16 for when around 1k textures.)
 * xatlas to create UV map (delete and rename UVMap0)
 * use principled baker to bake (there is an option to overwrite if required.)
 ![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
