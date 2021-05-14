@@ -12,7 +12,7 @@ Go from a static mesh to a fully animated VRM avatar.
 7. Ensure the scale is near 1.7 m for a humanoid.
 8. Apply scale and only scale to mesh vertices.
 9. Export the Godot Engine scene as a glTF 2.0 binary. (custom engine)
-10. Open gltf -> Blender (Use  Workflow Rignet)
+10. Open gltf -> Blender (Use Workflow Rignet)
 12. Blender -> VRM
 
 # Workflow Rignet
@@ -43,21 +43,19 @@ Check out Rignet to Blender folder.
 11. There is symmetry on X (Blender axis convention.)
 12. Wait a few minutes
 13. Check for the non-existance of weird bone branches.
-
-# Workflow VRM (Blender)
-
-* Principled baker to bake vertex colour
-* xatlas options (Use padding of 16 for when around 1k textures.)
-* xatlas to create UV map (delete and rename UVMap0)
-* use principled baker to bake (there is an option to overwrite if required.)
-![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
-* Armature Viewport display: stick, names and in front.
-* PROBLEMS WITH HAIR. The humanoids need to have accessories, hair and clothing removed.
-* Install Saturday's VRM addon for Blender
-* Assign all required bones (Hard!)
-* Convert above baked base colour texture to both albedo and shade colour.
-* Export to VRM.
-* Check animations in 3tene.
+14. Trash the skinning and use voxel diffuse skinning.
+1. Principled baker to bake vertex colour
+1. xatlas options (Use padding of 16 for when around 1k textures.)
+1. xatlas to create UV map (delete and rename UVMap0)
+1. use principled baker to bake (there is an option to overwrite if required.)
+1.[image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
+1. Armature Viewport display: stick, names and in front.
+1. PROBLEMS WITH HAIR. The humanoids need to have accessories, hair and clothing removed.
+1. Install Saturday's VRM addon for Blender
+1. Assign all required bones (Hard!)
+1. Convert above baked base colour texture to both albedo and shade colour.
+1. Export to VRM.
+1. Check animations in 3tene.
 
 ## Used in other software
 
