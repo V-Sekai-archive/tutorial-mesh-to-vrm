@@ -32,7 +32,7 @@ Check out Rignet to Blender folder.
 1. conda init powershell
 1. conda activate rignet
 1. pip install numpy scipy matplotlib tensorboard open3d==0.9.0 opencv-python
-1. pip install "rtree>=0.8,<0.9" # Note unique method for windows.
+1. pip install "rtree>=0.8,<0.9" # Note unique method for windows. See rignet readme.
 1. pip install trimesh[easy]
 1. conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 1. pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
