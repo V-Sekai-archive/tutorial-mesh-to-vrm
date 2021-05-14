@@ -43,7 +43,7 @@ Check out Rignet to Blender folder.
 11. There is symmetry on X (Blender axis convention.)
 12. Wait a few minutes
 13. Check for the non-existance of weird bone branches.
-14. Trash the skinning and use voxel diffuse skinning.
+14. Replace the skinning with voxel diffuse skinning.
 1. Principled baker to bake vertex colour
 1. xatlas options (Use padding of 16 for when around 1k textures.)
 1. xatlas to create UV map (delete and rename UVMap0)
