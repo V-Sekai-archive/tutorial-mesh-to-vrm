@@ -25,7 +25,7 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 * Principled baker to bake vertex color
 * xatlas to bake uv map (delete and rename UVMap0)
 * Armature Viewport display: stick, names and in front.
-* PROBLEMS WITH HAIR. Need to have them naked.
+* PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
 
 # Workflow Rignet
 
