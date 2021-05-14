@@ -42,6 +42,7 @@ Check out Rignet to Blender folder.
 10. Disable downscale skinning.
 11. There is symmetry on X (Blender axis convention.)
 12. Wait a few minutes
+13. Check for the non-existance of weird bone branches.
 
 # Workflow VRM (Blender)
 
