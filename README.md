@@ -4,35 +4,35 @@
 
 # Purpose
 
-Entry for meebitsDAO developer bounty for an automation tool to convert vox -> vrm.
+We are applying for meebitsDAO developer bounty for an automation tool to convert VOX -> VRM.
 
 # Workflow
 
-1. Take a input .vox in T-Pose (not A-Pose). Reject all that are not in T-Pose.
+1. Take an input .vox in T-Pose (not A-Pose). Reject all that is not in T-Pose.
 1. Download Godot Engine 3.3
 2. Open https://github.com/ClarkThyLord/Voxel-Core
-3. Import .vox with the object mode. 
-4. Import .vox also with uvs generated.
-5. Import .vox also with centering above axis.  
+3. Import .vox with the object model. 
+4. Import .vox also with UVs generated.
+5. Import .vox also with centring above the axis.  
 
 ![image](https://user-images.githubusercontent.com/32321/118209936-729f6780-b41e-11eb-9efb-999bc0a117fb.png)
 
 
-7. Ensure scale is near 1.7 m for a humanoid (Try 0.05 scale).
+7. Ensure the scale is near 1.7 m for a humanoid (Try 0.05 scale).
 8. Apply scale and only scale to mesh vertices.
-9. Export Godot Engine scene as a glTF 2.0 binary. (custom engine)
+9. Export the Godot Engine scene as a glTF 2.0 binary. (custom engine)
 10. Open gltf -> Blender (Use  Workflow Rignet)
 12. Blender -> VRM
 
 # Workflow Rignet
 
-Checkout rignet to Blender folder.
+Check out Rignet to Blender folder.
 
 1. conda create -n rignet python=3.7
 1. conda init powershell
 1. conda activate rignet
 1. pip install numpy scipy matplotlib tensorboard open3d==0.9.0 opencv-python
-1. pip install "rtree>=0.8,<0.9" # Note special method for windows!!!
+1. pip install "rtree>=0.8,<0.9" # Note unique method for windows.
 1. pip install trimesh[easy]
 1. conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 1. pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
@@ -54,17 +54,17 @@ Checkout rignet to Blender folder.
 
 # Workflow VRM (Blender)
 
-* Principled baker to bake vertex color
+* Principled baker to bake vertex colour
 * xatlas options (use padding 16 for 1k textures or less)
-* xatlas to create uv map (delete and rename UVMap0)
-* use principled baker to bake (there's an option to overwrite if required.)
+* xatlas to create UV map (delete and rename UVMap0)
+* use principled baker to bake (there is an option to overwrite if required.)
 ![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
 * Armature Viewport display: stick, names and in front.
-* PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
+* PROBLEMS WITH HAIR. The humanoids need to have accessories, hair and clothing removed.
 * Install Saturday's VRM addon for Blender
 * Assign all required bones (Hard!)
-* Convert above baked base colour texture to both albedo and shade color.
-* Export to vrm.
+* Convert above baked base colour texture to both albedo and shade colour.
+* Export to VRM.
 * Check animations in 3tene.
 
 ## Used in other software
@@ -79,4 +79,4 @@ https://user-images.githubusercontent.com/32321/118210676-a5962b00-b41f-11eb-8fa
 
 1. Automatic skeleton scanning in VRM for Blender
 2. Automatic guessing of bones via location. Lasso them!
-3. Better automatic rigs. Note the shoulder to spine problem.
+3. Better automatic rigs. Note the shoulder to a spine problem.
