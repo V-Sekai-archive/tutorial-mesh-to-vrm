@@ -49,7 +49,8 @@ Check out Rignet to Blender folder.
 8. Decimate to 600 quads. Don't adaptive subdivide.
 9. Density 0.8 and Threshold of 0.007
 10. Disable downscale skinning.
-11. Wait a few minutes
+11. There is symmetry on X (Blender axis convention.)
+12. Wait a few minutes
 
 ![image](https://user-images.githubusercontent.com/32321/118210317-3ae4ef80-b41f-11eb-96c9-755fc54e3588.png)
 
