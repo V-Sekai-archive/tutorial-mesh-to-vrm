@@ -14,6 +14,10 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 3. Import .vox with the object mode. 
 4. Import .vox also with uvs generated.
 5. Import .vox also with centering above axis.  
+
+![image](https://user-images.githubusercontent.com/32321/118209936-729f6780-b41e-11eb-9efb-999bc0a117fb.png)
+
+
 7. Ensure scale is near 1.7 m for a humanoid (Try 0.05 scale).
 8. Apply scale and only scale to mesh vertices.
 9. Export Godot Engine scene as a glTF 2.0 binary. (custom engine)
@@ -23,6 +27,7 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 # Workflow VRM (Blender)
 
 * Principled baker to bake vertex color
+* xatlas options (use padding 16 for 1k textures or less)
 * xatlas to bake uv map (delete and rename UVMap0)
 * Armature Viewport display: stick, names and in front.
 * PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
@@ -52,3 +57,5 @@ Checkout rignet to Blender folder.
 8. Decimate
 9. Density 0.8 and Threshold of 0.007
 10. Wait a few minutes
+
+
