@@ -11,15 +11,14 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 1. Take a input .vox in T-Pose (not A-Pose). Reject all that are not in T-Pose.
 1. Download Godot Engine 3.3
 2. Open https://github.com/ClarkThyLord/Voxel-Core
-3. Import .vox with first the object mode. 
-4. Import .vox with second uvs generated.
-5. Import .vox with centering above axis.  
+3. Import .vox with the object mode. 
+4. Import .vox also with uvs generated.
+5. Import .vox also with centering above axis.  
 7. Ensure scale is near 1.7 m for a humanoid (Try 0.05 scale).
 8. Apply scale and only scale to mesh vertices.
-9. Export Godot Engine scene as a glTF 2.0 binary.
+9. Export Godot Engine scene as a glTF 2.0 binary. (custom engine)
 10. Open gltf -> Blender (Use  Workflow Rignet)
-11. Voxel heat diffusion skinning
-12. Blender -> VRM ()
+12. Blender -> VRM
 
 # Workflow VRM (Blender)
 
@@ -51,5 +50,7 @@ Checkout rignet to Blender folder.
 6. There is a typo in brignet\rignetconnect.py at `parent, key, init_id = primMST_symmetry(cost_matrix, root_id, pred_joints)`
 7. Select mesh
 8. Decimate
-9. DEnsity 0.8 and Threshold of 0.007
+9. Density 0.8 and Threshold of 0.007
+10. Wait a few minutes
+11. Problems with accessories.
 
