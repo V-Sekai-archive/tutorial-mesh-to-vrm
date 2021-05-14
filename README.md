@@ -28,9 +28,9 @@ Entry for meebitsDAO developer bounty for an automation tool to convert vox -> v
 
 * Principled baker to bake vertex color
 * xatlas options (use padding 16 for 1k textures or less)
-![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
 * xatlas to create uv map (delete and rename UVMap0)
 * use principled baker to bake (there's an option to overwrite if required.)
+![image](https://user-images.githubusercontent.com/32321/118210174-ef324600-b41e-11eb-9892-d8b3d2a81127.png)
 * Armature Viewport display: stick, names and in front.
 * PROBLEMS WITH HAIR. The humanoids need to have acessories, hair and clothing removed.
 
@@ -59,3 +59,7 @@ Checkout rignet to Blender folder.
 8. Decimate
 9. Density 0.8 and Threshold of 0.007
 10. Wait a few minutes
+
+![image](https://user-images.githubusercontent.com/32321/118210317-3ae4ef80-b41f-11eb-96c9-755fc54e3588.png)
+
+
