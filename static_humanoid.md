@@ -9,15 +9,6 @@ Go from a static mesh to a fully animated VRM avatar.
 # Workflow
 
 1. Take an input mesh in T-Pose (not A-Pose). Reject all that is not in T-Pose.
-1. Download Godot Engine 3.3
-2. Open https://github.com/ClarkThyLord/Voxel-Core
-3. Import .vox with the object model. 
-4. Import .vox also with UVs generated.
-5. Import .vox also with centring above the axis.  
-
-![image](https://user-images.githubusercontent.com/32321/118209936-729f6780-b41e-11eb-9efb-999bc0a117fb.png)
-
-
 7. Ensure the scale is near 1.7 m for a humanoid (Try 0.05 scale).
 8. Apply scale and only scale to mesh vertices.
 9. Export the Godot Engine scene as a glTF 2.0 binary. (custom engine)
