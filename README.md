@@ -74,3 +74,9 @@ Problems with meshing and weighting.
 3tene
 
 https://user-images.githubusercontent.com/32321/118210676-a5962b00-b41f-11eb-8fa0-e81f99ebac5a.mp4
+
+## Additional feature proposals
+
+1. Automatic skeleton scanning in VRM for Blender
+2. Automatic guessing of bones via location. Lasso them!
+3. Better automatic rigs. Note the shoulder to spine problem.
