@@ -56,6 +56,7 @@ Check out Rignet to Blender folder.
 1. Convert above baked base colour texture to both albedo and shade colour.
 1. Export to VRM.
 1. Check animations in 3tene.
+2. Check tuck and sit in 3tene.
 
 ## Used in other software
 
