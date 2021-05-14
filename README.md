@@ -52,5 +52,3 @@ Checkout rignet to Blender folder.
 8. Decimate
 9. Density 0.8 and Threshold of 0.007
 10. Wait a few minutes
-11. Problems with accessories.
-
