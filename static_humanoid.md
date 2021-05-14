@@ -46,7 +46,7 @@ Check out Rignet to Blender folder.
 5. Configure the rignet env from above and the brignet folder and the rignet folder under brignet.
 6. There is a typo in brignet\rignetconnect.py at `parent, key, init_id = primMST_symmetry(cost_matrix, root_id, pred_joints)`
 7. Select mesh
-8. Decimate to 600 quads.
+8. Decimate to 600 quads. Don't adaptive subdivide.
 9. Density 0.8 and Threshold of 0.007
 10. Wait a few minutes
 
