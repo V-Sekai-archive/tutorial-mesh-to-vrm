@@ -62,4 +62,10 @@ Checkout rignet to Blender folder.
 
 ![image](https://user-images.githubusercontent.com/32321/118210317-3ae4ef80-b41f-11eb-96c9-755fc54e3588.png)
 
+## Used in other software
 
+Problems with meshing and weighting.
+
+3tene
+
+https://user-images.githubusercontent.com/32321/118210676-a5962b00-b41f-11eb-8fa0-e81f99ebac5a.mp4
