@@ -19,6 +19,7 @@ Go from a static mesh to a fully animated VRM avatar.
 
 Check out Rignet to Blender folder.
 
+1. scoop install minicoda3
 1. conda create -n rignet python=3.7
 1. conda init powershell
 1. conda activate rignet
