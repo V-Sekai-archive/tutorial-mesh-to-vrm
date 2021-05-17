@@ -34,7 +34,7 @@ Check out Rignet to Blender folder.
 1. pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.6.0+cu101.html
 1. pip install torch-geometric
 2. scoop\apps\blender\current\2.92\python\bin> python -m pip install pillow # Is this needed?
-3. Use conda list to get the location of the modules folder for conda's rignet env.
+3. Use `conda env list` to get the location of the modules folder for conda's rignet env.
 4. Install brignet Blender addon.
 5. Configure the rignet env from above and the brignet folder and the rignet folder under brignet.
 6. There is a typo in brignet\rignetconnect.py at `parent, key, init_id = primMST_symmetry(cost_matrix, root_id, pred_joints)`
