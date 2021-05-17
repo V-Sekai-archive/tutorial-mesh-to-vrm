@@ -8,7 +8,7 @@ Go from a static mesh to a fully animated VRM avatar.
 
 # Workflow
 
-1. Take an input mesh in T-Pose (not A-Pose). Reject all that is not in T-Pose.
+1. Take an input mesh in T-Pose or A-Pose. Reject all that is not in T-Pose.
 7. Ensure the scale is near 1.7 m for a humanoid.
 8. Apply scale and only scale to mesh vertices.
 9. Export the Godot Engine scene as a glTF 2.0 binary. (custom engine)
